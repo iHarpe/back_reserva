@@ -1,0 +1,7 @@
+
+m	java:S116"RRename this field "IDEVENT" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÚßëU8Òµ¬ÜÍ2
+r	java:S116"QRename this field "NOMBRE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(•ù¯²ûÿÿÿÿ8£¯ÜÍ2
+r	java:S116"VRename this field "DESCRIPCION" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ã”˜¶8Óµ¬ÜÍ2
+r	java:S116"VRename this field "FECHAEVENTO" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ãıÓƒ8Ìà®ÜÍ2
+t	java:S116"XRename this field "ASISTENTESMAX" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(²ÿÍ§8Œ¾µÜÍ2
+t	java:S116"XRename this field "ASISTENTESTOT" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(µ¼ÄŒ8Èù¶ÜÍ2

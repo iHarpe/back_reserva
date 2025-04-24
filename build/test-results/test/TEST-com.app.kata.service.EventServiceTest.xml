@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.app.kata.service.EventServiceTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2025-04-24T20:08:40" hostname="DESKTOP-DLSSTBH" time="0.143">
+  <properties/>
+  <testcase name="getAllEvents_Success()" classname="com.app.kata.service.EventServiceTest" time="0.116"/>
+  <testcase name="updateEvent_NotFound()" classname="com.app.kata.service.EventServiceTest" time="0.005"/>
+  <testcase name="getEvent_Success()" classname="com.app.kata.service.EventServiceTest" time="0.003"/>
+  <testcase name="deleteEvent_NotFound()" classname="com.app.kata.service.EventServiceTest" time="0.006"/>
+  <testcase name="deleteEvent_Success()" classname="com.app.kata.service.EventServiceTest" time="0.003"/>
+  <testcase name="updateEvent_Success()" classname="com.app.kata.service.EventServiceTest" time="0.003"/>
+  <testcase name="createEvent_Success()" classname="com.app.kata.service.EventServiceTest" time="0.003"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

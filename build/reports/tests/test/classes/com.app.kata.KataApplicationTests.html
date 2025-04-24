@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - KataApplicationTests</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>KataApplicationTests</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/com.app.kata.html">com.app.kata</a> &gt; KataApplicationTests</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">1</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">0.549s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">contextLoads()</td>
+<td class="success">0.549s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>15:08:31.431 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.app.kata.KataApplicationTests]: KataApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+15:08:31.596 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.app.kata.KataApplication for test class com.app.kata.KataApplicationTests
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.4.2)
+
+2025-04-24T15:08:32.156-05:00  INFO 28544 --- [kata] [    Test worker] com.app.kata.KataApplicationTests        : Starting KataApplicationTests using Java 17.0.13 with PID 28544 (started by Dell G15 in C:\Users\Dell G15\Documents\Trabajos\kata\Back\kata)
+2025-04-24T15:08:32.156-05:00  INFO 28544 --- [kata] [    Test worker] com.app.kata.KataApplicationTests        : No active profile set, falling back to 1 default profile: &quot;default&quot;
+2025-04-24T15:08:33.153-05:00  INFO 28544 --- [kata] [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-24T15:08:33.259-05:00  INFO 28544 --- [kata] [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 80 ms. Found 3 JPA repository interfaces.
+2025-04-24T15:08:34.101-05:00  INFO 28544 --- [kata] [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-24T15:08:34.204-05:00  INFO 28544 --- [kata] [    Test worker] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.5.Final
+2025-04-24T15:08:34.259-05:00  INFO 28544 --- [kata] [    Test worker] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-04-24T15:08:34.732-05:00  INFO 28544 --- [kata] [    Test worker] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-24T15:08:34.773-05:00  INFO 28544 --- [kata] [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-04-24T15:08:35.273-05:00  INFO 28544 --- [kata] [    Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection oracle.jdbc.driver.T4CConnection@55881f40
+2025-04-24T15:08:35.275-05:00  INFO 28544 --- [kata] [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-04-24T15:08:35.659-05:00  INFO 28544 --- [kata] [    Test worker] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 21.3
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+Hibernate: 
+    create global temporary table HTE_events(asistentesmax number(10, 0), asistentestot number(10, 0), idevent number(38, 0), rn_ number(10, 0) not null, fechaevento timestamp(6), descripcion varchar2(70 char), nombre varchar2(120 char), primary key (rn_)) 
+        on commit delete rows
+Hibernate: 
+    create global temporary table HTE_usersapp(iduser number(38, 0), rn_ number(10, 0) not null, correo varchar2(70 char), password varchar2(70 char), nombre varchar2(120 char), primary key (rn_)) 
+        on commit delete rows
+Hibernate: 
+    create global temporary table HTE_bookings(eventorsv number(38, 0), idbooking number(38, 0), rn_ number(10, 0) not null, fechareserva timestamp(6), primary key (rn_)) 
+        on commit delete rows
+2025-04-24T15:08:36.773-05:00  INFO 28544 --- [kata] [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-04-24T15:08:36.946-05:00  INFO 28544 --- [kata] [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-24T15:08:37.513-05:00  WARN 28544 --- [kata] [    Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-24T15:08:38.919-05:00  INFO 28544 --- [kata] [    Test worker] com.app.kata.KataApplicationTests        : Started KataApplicationTests in 7.114 seconds (process running for 8.708)
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 8.12.1</a> at 24/04/2025, 3:08:40 p. m.</p>
+</div>
+</div>
+</body>
+</html>
